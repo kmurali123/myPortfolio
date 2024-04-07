@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    color: white;
+}
+.container{
+    display:flex;
+
+}
+.main{
+    background-color:black;
+    width: 100vw;
+    height:100vh;
+}
+.sidebar{
+    background-color:rgba(0, 0, 0, 0.882);
+    font-family: 'Protest Revolution', sans-serif;
+    width:250px;
+    height:100vh;
+
+    
+}
+
+
+.sidebar nav{
+    padding:50px;
+   
+
+}
+.sidebar nav li{
+    list-style:none;
+    margin:10px;
+    padding: 20px 0px;
+    font-size:30px;
+}
+.sidebar nav li a{
+text-decoration: none;
+color:white;
+}
+
+.infoContainer{
+    padding:40px;
+    background-color:black;
+    height:60vh;
+    width:80vw;
+    margin: 85px auto;
+    display:flex; 
+    justify-content: space-around;
+   
+  
+}
+.devPic{
+    display: flex;
+   
+
+    height:60vh;
+   
+}
+.devInfo{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color:white;
+    
+}
+
+.intro{
+    font-size: 55px;
+
+}
+.name{
+    font-size: 36px;
+}
+.about{
+    font-size: 14px;
+}
+.about1{
+    font-size: 30px;
+}
+
+
+.btn{
+    background-color: aquamarine;
+    padding:8px;
+    border-radius: 10px;
+    margin-top:32px;
+   border: none;
+   color: black;
+}
+.btn:hover{
+    background-color: green;
+    cursor: pointer;
+    
+
+}
+ .contactForm h1{
+     text-align :center;
+ }
+.contactForm form div{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin:10px 0px;
+    padding: 20px 0px;
+  
+}
+.contactForm form div input{
+    border-color: red;
+    width:20vw;
+    height:20px;
+}
+.submit1{
+    color: black;
+    padding: 15px 20px;
+    
+    
+    border-radius: 12px;
+}
+.submit1:hover{
+    background-color:brown;
+    cursor: pointer;
+}
+#emailHelp{
+    font-size: 10px;
+}
+
+#form-check{
+    display: flex;
+  flex-direction: row;
+  
+}
+#isClient{
+    width:15px;
+    margin-right: 10px;
+}
+
+
+/* myintro.css */
+
+.containMyInfo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .myInfo{
+    margin:60px 250px;
+    padding: 0px 130px;
+    color: brown;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+    
+  .myInfo1{
+    margin:0px 250px;
+    padding: 0px 130px;
+    color: brown;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .aboutMe{
+    margin: 0px 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .aboutMe h3{
+
+    margin-top:10px;
+    
+    text-align: center;
+    font-size: 27px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+  .aboutMe li{
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
